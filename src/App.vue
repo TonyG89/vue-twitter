@@ -1,11 +1,13 @@
 <script setup>
-import HelloWorld from "./components/HelloWorld.vue";
+import Navbar from "./components/Navbar.vue";
+import Home from "./components/Home.vue";
+import Category from "./components/Category.vue";
 </script>
 
-<template class="bg-stone-900">
-  dsadas
+<template>
+<Navbar/>
+<Home/>
+<Category/>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
